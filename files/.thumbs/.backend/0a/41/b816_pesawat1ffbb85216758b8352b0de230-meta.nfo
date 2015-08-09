@@ -1,0 +1,82 @@
+<?php
+
+// legal URL: /pesawat1.jpg
+
+$statdata = array (
+  0 => 3,
+  1 => 0,
+  2 => 33206,
+  3 => 1,
+  4 => 0,
+  5 => 0,
+  6 => 3,
+  7 => 355074,
+  8 => 1438745142,
+  9 => 1438745143,
+  10 => 1438745142,
+  11 => -1,
+  12 => -1,
+  'dev' => 3,
+  'ino' => 0,
+  'mode' => 33206,
+  'nlink' => 1,
+  'uid' => 0,
+  'gid' => 0,
+  'rdev' => 3,
+  'size' => 355074,
+  'atime' => 1438745142,
+  'mtime' => 1438745143,
+  'ctime' => 1438745142,
+  'blksize' => -1,
+  'blocks' => -1,
+);
+
+$data = array (
+  'mime_type' => 'image/jpeg',
+  'analysis' => 
+  array (
+    'GETID3_VERSION' => '1.9.3-20111213',
+    'filesize' => 355074,
+    'filename' => 'pesawat1.jpg',
+    'filepath' => 'D:/htdocs/ionize-1.0.7.1/files',
+    'filenamepath' => 'D:/htdocs/ionize-1.0.7.1/files/pesawat1.jpg',
+    'avdataoffset' => 0,
+    'avdataend' => 355074,
+    'fileformat' => 'jpg',
+    'video' => 
+    array (
+      'dataformat' => 'jpg',
+      'lossless' => false,
+      'bits_per_sample' => 24,
+      'pixel_aspect_ratio' => 1,
+      'resolution_x' => 1200,
+      'resolution_y' => 573,
+      'compression_ratio' => 0.172132053519488070758569620011257939040660858154296875,
+    ),
+    'encoding' => 'UTF-8',
+    'mime_type' => 'image/jpeg',
+  ),
+  'mime_type from file extension' => 'image/jpeg',
+  'thumb250_direct' => '/ionize-1.0.7.1/files/.thumbs/.backend/0a/41/b816_pesawat1ffbb85216758b8352b0de230-500x500.jpg',
+  'thumb250_info' => 
+  array (
+    0 => 500,
+    1 => 239,
+    2 => 2,
+    3 => 'width="500" height="239"',
+    'bits' => 8,
+    'channels' => 3,
+    'mime' => 'image/jpeg',
+  ),
+  'thumb48_direct' => '/ionize-1.0.7.1/files/.thumbs/.backend/0a/41/b816_pesawat1ffbb85216758b8352b0de230-120x120.jpg',
+  'thumb48_info' => 
+  array (
+    0 => 120,
+    1 => 57,
+    2 => 2,
+    3 => 'width="120" height="57"',
+    'bits' => 8,
+    'channels' => 3,
+    'mime' => 'image/jpeg',
+  ),
+);
